@@ -51,7 +51,7 @@ setuptools.setup(
         ]
     },
     install_requires=[
-        "cryptography",
+        "cryptography<50",
         "enum-compat",
         "requests",
         "six",
